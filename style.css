@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.container {
+    margin: 0 60px;
+    padding: 20px 20px;
+}
+
+.color-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #939393;
+}
+
+.todo__box {
+    width: 49%;
+    height: 195px;
+    padding: 20px 25px;
+    border: 2px solid #979797;
+    border-radius: 21px;
+    margin-bottom: 30px;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+}
+
+.green {
+    background-color: #6AFF9D;
+}
+
+.red {
+    background-color: #FF6F6F;
+}
+
+.yellow {
+    background-color: #FDD879;
+}
+
+.color-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.redact-panel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.todo {
+    padding: 30px 0;
+}
+
+.todo__boxes {
+    max-width: 1064px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.plus-btn {
+    width: 33px;
+    height: 33px;
+    background-image: url('img/svg/add.svg');
+}
+
+.save-btn {
+    padding: 15px 50px;
+    background-color: #FDD879;
+    border-radius: 25px;
+    border: 2px solid #939393;
+}
+
+.login-sign-up {
+    display: flex;
+    gap: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    border: 2px solid #4E4E4E;
+}
+
+.add-list-item-btn {
+    align-self: flex-end;
+}
+
+.list {
+    align-self: flex-start;
+    list-style: none;
+}
